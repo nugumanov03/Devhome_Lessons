@@ -17,7 +17,7 @@
 
 
 .box{
-    width: 150px;
+    width: 33%;
     height: 50px;
     margin: 20px;
     background-color: aqua;
@@ -26,6 +26,51 @@
 .main-right{
     display: flex;
     flex-direction: column;
-    
+    width: 30%;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        overflow-y:scroll  ;
+        /* width */
 
+
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #626262;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #30ec2c;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #0d7522;
+      }
+
+    .post{
+        display: flex;
+        flex-direction: column;
+        gap : 10px;
+        padding :10px;
+        h1{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .descrip{
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        p{
+            color: #575757;
+        }
+    }
 }
+
