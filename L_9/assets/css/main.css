@@ -1,0 +1,268 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.right-projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.header-right {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.left-ads a {
+  color: white;
+  text-decoration: none;
+}
+.right-projects h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: white;
+  text-decoration: none;
+}
+.right-currency {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right-currency > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right-currency h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+}
+.right-projects svg {
+  width: 100px;
+  border-left: 1px solid rgba(255, 255, 255, 0.538);
+  padding-left: 2px;
+}
+.mycar {
+  width: 63px;
+  height: 22px;
+}
+.halyk {
+  width: 66px;
+  height: 18px;
+}
+.chevrolet {
+  width: 44px;
+  height: 22px;
+}
+.wrapperAll {
+  width: 980px;
+}
+.top-header {
+  background-color: #757575;
+  height: 45px;
+}
+/* bottom-header */
+.bottom-header {
+  background-color: white;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+}
+.bottom-header-left {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bottom-header-left > div {
+  margin: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 245px;
+  height: 36px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.nav h2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #2f2f2f;
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.lang h2 {
+  color: #3dc704;
+  font-weight: 500;
+  font-size: 14px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-header-right {
+  width: 30% ;
+  background-color: #32a801;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+}
+.bottom-header-right h2:hover {
+  color: #0b12e9;
+  margin-top: 20px;
+  font-size: 21px;
+  transition: 1s ease;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.main-left {
+  width: 70%;
+}
+.main-first img {
+  width: 100%;
+}
+.box {
+  width: 33%;
+  margin: 20px;
+  background-color: aqua;
+}
+.main-right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.main-right .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  overflow-y: scroll  ;
+  /* width */
+}
+.main-right ::-webkit-scrollbar {
+  width: 10px;
+}
+.main-right ::-webkit-scrollbar-track {
+  background: #626262;
+}
+.main-right ::-webkit-scrollbar-thumb {
+  background: #30ec2c;
+}
+.main-right ::-webkit-scrollbar-thumb:hover {
+  background: #0d7522;
+}
+.main-right .post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.main-right .post h1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main-right .descrip {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.main-right .descrip p {
+  color: #575757;
+}
+.read {
+  display: flex;
+  background-color: #dfecdd;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.wra {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #30ec2c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px 30px;
+  background-color: #0d752200;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #000000;
+  color: white;
+  transition: 1s ease;
+  margin-top: 10px;
+}
+body {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
