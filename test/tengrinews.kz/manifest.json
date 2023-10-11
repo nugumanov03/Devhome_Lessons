@@ -1,0 +1,29 @@
+{
+  "name": "Tengrinews.kz - новости Казахстана и мира 24/7.",
+  "short_name": "Tengrinews",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#008000",
+  "theme_color": "#008000",
+  "gcm_sender_id": "482941778795",
+  "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "kz.tengrinews"
+    }
+  ]
+}
